@@ -17,6 +17,13 @@ public class AccountHandler{
      system.debug('hello');
      system.debug('hello');
      system.debug('hello');
+     if(String.isBlank(accName)){
+         
+     system.debug('hello');
+     system.debug('hello');
+     }
+
+
 
 
      }
