@@ -23,6 +23,8 @@ public class CreateContacts {
             wrapper.isRequired = fieldMember.getRequired();
             wrapper.fieldType = String.valueOf(fieldMember.getType());
             wrapper.fieldLabel = fieldMember.getLabel();
+
+            
             wrapper.fieldAPIName = fieldMember.getFieldPath();
             if(String.valueOf(fieldMember.getType()) == 'PICKLIST' || 
                				String.valueOf(fieldMember.getType()) == 'MULTIPICKLIST'){
